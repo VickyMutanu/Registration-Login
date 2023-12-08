@@ -1,0 +1,473 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+.home{
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)), url("https://img.freepik.com/free-photo/top-view-vegetables-fruits-bag_23-2148949707.jpg?w=900&t=st=1701981491~exp=1701982091~hmac=0791337a186484547d1b77e000c9192bdb4cc86bdd895900ffa8158e13d13315.jpg?w");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)), url("https://img.freepik.com/free-photo/top-view-assortment-vegetables-paper-bag_23-2148853335.jpg?w=740&t=st=1701981339~exp=1701981939~hmac=d600dfbf79b9777eedbe5c274712cf1844d2ef12092682eb075c73ea2624b52d.jpg?w");
+    background-size: cover;
+}
+.nav{
+    height:80px;
+    margin: auto;
+}
+.nav h1{
+    float:left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inherit;
+    color:#20eb4c;
+    padding: 12px 25px;
+}
+.nav ul{
+    float: right;
+    line-height: 80px;
+}
+.nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+.nav ul li a{
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+}
+.nav ul li a:hover{
+    background-color:#20eb4c;
+    transition: 0.5s ease;
+}
+.nav ul li button{
+    color:#054112;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+}
+.nav ul li button:hover{
+    background-color:#20eb4c;
+    transition: 0.5s ease;
+}
+.nav ul li a:acive{
+    background-color:#20eb4c;
+}
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    pointer-events: none;
+  }
+  section.active .overlay {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+.Login .par{
+    padding-left: 10%;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    width: 1200px;
+    color: #fff;
+}
+
+.Login h1{
+    font-size: 50px;
+    padding-left: 10%;
+    margin-top: 9%;
+    letter-spacing: 2px;
+    width: 1200px;
+    color: #fff;
+}
+.Login .btn{
+    width: 160px;
+    height: 40px;
+    background: #20eb4c;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.Login .btn a{
+    text-decoration: none;
+    color: #fff;
+    transition: .3s ease;
+}
+.btn:hover{
+    background-color: #000;
+}
+.Login span{
+    color: #20eb4c;
+    font-size: 60px;
+}
+
+.form{
+    width: auto;
+    height: auto;
+    background: linear-gradient(to top, rgba(247, 242, 242, 0.8)50%,rgba(247, 242, 242, 0.8)50%);
+    position: absolute;
+    top: 30%;
+    left: 870px;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #20eb4c;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #054112;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #000;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #000;
+    font-family: Arial;
+}
+form p{
+    text-align: center;
+    padding-top: 5%;
+    font-size: 13px;
+}
+.btnon{
+    width: 240px;
+    height: 40px;
+    background: #20eb4c;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #000;
+    transition: 0.4s ease;
+}
+.btnon:hover{
+    background: #fff;
+    color: #20eb4c;
+}
+.btnon a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.form .Point{
+    font-size: 12px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .Point a{
+    text-decoration: none;
+    color: #20eb4c;
+    font-size: 15px;
+    border: #000;
+    border-radius: 10px;
+}
+.formsignup {
+    width: auto;
+    height: auto;
+    background: #fff;
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 12%;
+    top: 30%;
+    left: 853px;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 25px; 
+    opacity: 0;
+    pointer-events: none;
+ 
+}
+section.active .formsignup {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, -50%) scale(1);
+}
+.formsignup input:focus{
+    outline: none;
+}
+.formsignup h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #20eb4c;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.formsignup input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #054112;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #000;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+.formsignup p{
+    text-align: center;
+    padding-top: 5%;
+    font-size: 13px;
+}
+.form-btn{
+    width: 240px;
+    height: 40px;
+    background: #20eb4c;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #000;
+}
+.form-btn input{
+    text-align: center;
+    padding-top: 5%;
+    font-size: 13px;
+}
+.article{
+    width: 50%;
+    margin:auto;
+    text-align: left;
+    transform: translateY(23vh) translateX(19vh);
+}
+.article h1{
+    font-size: 36px;
+    color: #20eb4c;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.article h2{
+    font-size: 32px;
+    color: #054112;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.article p{
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+.article .btn{
+    color: #fff;
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    border: #20eb4c 1px solid;
+    border-radius: 10px;
+}
+.article .btn:hover{
+    background-color: #20eb4c;
+    transition: 0.5s ease;
+}
+.prices{
+    min-height: 100vh;
+    background-image: url("https://img.freepik.com/free-vector/green-curve-frame-template-vector_53876-144370.jpg?w=740&t=st=1700413785~exp=1700414385~hmac=adf2bd385f7bf58048899a889917555bc1d618307dd45da0c02a2ffbafffdef5.jpg?w");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.quantity{
+    width: 100%;
+    margin: 0px;;
+    text-align: center;
+    transform: translateY(25vh);
+}
+.quantity h1{
+    font-size: 36px;
+    color: #054112;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.quantity h2{
+    font-size: 32px;
+    color: #20eb4c;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.quantity p{
+    font-size: 18px;
+    color: #000;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+.quantity .btn{
+    color: #000;
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    border: #20eb4c 2px solid;
+    border-radius: 10px;
+}
+.quantity .btn:hover{
+    background-color: #20eb4c;
+    transition: 0.5s ease;
+}
+.services{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)), url("https://img.freepik.com/free-photo/basket-full-vegetables_1112-316.jpg?w=740&t=st=1700417457~exp=1700418057~hmac=1cc1c8fbfd1f70c45b7c4bd55a3ce025ba40562f02b7ea702e059036ba76cd15.jpg?w");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.time{
+    width: 100%;
+    margin: 0px;;
+    text-align: center;
+    transform: translateY(25vh);
+}
+.time h1{
+    font-size: 36px;
+    color: #20eb4c;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.time p{
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+.inshop{
+    width: 100%;
+    margin: 0px;;
+    text-align: center;
+    transform: translateY(25vh);
+}
+.inshop h1{
+    font-size: 36px;
+    color: #20eb4c;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.inshop p{
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+.inshop .btn{
+    color: #fff;
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    border: #20eb4c 2px solid;
+    border-radius: 10px;
+}
+.inshop .btn:hover{
+    background-color: #20eb4c;
+    transition: 0.5s ease;
+}
+.try{
+    min-height: 80vh;
+    background-image: linear-gradient(rgba(168, 165, 165, 0.6), rgba(168,165,165,0.60)), url("https://img.freepik.com/free-photo/healthy-vegetables-wooden-table_1150-38014.jpg?w=740&t=st=1700419393~exp=1700419993~hmac=515dcc813f5255d02256ecab32826403f5eea4a01bd247445053a7e02ea2db1c.jpg?w");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.offers{
+    
+    margin: auto;
+    text-align: center;
+    transform: translateY(15vh);
+    height: 300px;
+    width: 700px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.offers h1{
+    font-size: 32px;
+    color: #20eb4c;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.offers p{
+    font-size: 18px;
+    color: #000;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+.offers .btn{
+    color: #000f;
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    border: #20eb4c 2px solid;
+    border-radius: 10px;
+}
+.offers .btn:hover{
+    background-color: #20eb4c;
+    transition: 0.5s ease;
+}
+footer {
+    background-color: #000;
+    min-height: 10vh;
+}
+
+footer p{
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 25px;
+    padding: 15px 0px;
+}
